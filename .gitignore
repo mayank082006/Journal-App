@@ -8,4 +8,7 @@ src/main/resources/application-prod.yml
 .idea/
 *.iml
 .vscode/
+.env
+logs/
+*.log
 
