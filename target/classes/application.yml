@@ -1,0 +1,35 @@
+spring:
+  server:
+    port: 8080
+    ssl: enabled=false
+
+  redis:
+     host: localhost
+     port: 6379
+
+
+  data:
+     mongodb:
+       uri: mongodb+srv://mayank12:mayank123@cluster0.2jpjgno.mongodb.net/?appName=Cluster0
+       database: journaldb
+       auto-index-creation: true
+  mail:
+      host: smtp.gmail.com
+      port: 587
+      username: mayankmishra090909@gmail.com
+      password: cmly etqr yydp abny
+      properties:
+        mail:
+          smtp:
+            auth: true
+            starttls:
+              enable: true
+
+
+
+#springdoc:
+#  swagger-ui:
+#    path: /docs
+weather:
+    api:
+      key: d488b9b355a4c3d0c4b92e0428f9d809
